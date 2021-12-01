@@ -121,40 +121,15 @@
 | POST | 将实体提交到指定的资源，通常会引发状态更改或给服务器带来连带影响。 |
 | PUT | 将目标资源的所有当前表示形式替换为请求负载。 |
 
-<span id="Selling_Partner_API_endpoints" class="anchor">
-
 ## 销售伙伴 API 端点
 
 销售伙伴 API 端点与特定 AWS 区域相关联。AWS 区域非常重要，因为它是凭证范围的一部分，是在调用销售伙伴 API 时计算签名所必需的。有关更多信息，请参阅[凭据范围](#credential-scope)。
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>销售区域</strong></th>
-<th><strong>端点</strong></th>
-<th><strong>AWS 区域</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>北美（加拿大、美国、墨西哥和巴西商城）</td>
-<td>https://sellingpartnerapi-na.amazon.com</td>
-<td>us-east-1</td>
-</tr>
-<tr class="even">
-<td>欧洲（西班牙、英国、法国、荷兰、德国、意大利、土耳其、阿联酋和印度商城）</td>
-<td>https://sellingpartnerapi-eu.amazon.com</td>
-<td>eu-west-1</td>
-</tr>
-<tr class="odd">
-<td>
-<p>远东（新加坡、澳大利亚和日本商城）</p>
-</td>
-<td>https://sellingpartnerapi-fe.amazon.com</td>
-<td>us-west-2</td>
-</tr>
-</tbody>
-</table>
+| **销售区域** | **端点** | **AWS区域** |
+| ----------- | ------------ | --------- |
+| 北美（加拿大、美国、墨西哥和巴西商城） | https://sellingpartnerapi-na.amazon.com | us-east-1 |
+| 欧洲（西班牙、英国、法国、荷兰、德国、意大利、土耳其、阿联酋和印度商城） | https://sellingpartnerapi-eu.amazon.com | eu-west-1 | 
+| 远东（新加坡、澳大利亚和日本商城） | https://sellingpartnerapi-fe.amazon.com | us-west-2 |
 
 ## marketplaceId 值
 
